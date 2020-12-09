@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<title>农业部</title>
+<link media="screen and ( min-width:980px)" href="css/980css.main.css" rel="stylesheet" type="text/css"/>
+<link media="screen and ( max-width:680px)" href="css/680css.main.css" rel="stylesheet" type="text/css"/>
+<link href="css/Animate.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery.min.js"></script>
+<script>
+var i = 1;
+var timer = null;
+function lunbo(){
+	var aaa = $(window).width();
+	if(aaa<=1600&&aaa>=980){
+		$(".banner li").width(aaa);
+		}
+	if(aaa>1600){
+		$(".banner li").width(1600);
+		aaa = 1600;
+		}
+	if(aaa<980){
+		$(".banner li").width(aaa);
+		}
+	$(".banner li").each(function(index, element) {
+        var src = $(this).find("img").attr("src");
+		$(this).css({"background":"url("+src+") no-repeat center center"});
+		$(this).css({"background-size":" cover"});
+	});
+	var left = -aaa*(i-1)
+	$(".banner ul").animate({"left":left+"px"},1000);
+	i++;
+	if(i>3){
+		$(".banner ul").append(html);
+	}
+}
+$(document).ready(function(e) {
+   html =$(".banner ul").html();
+   lunbo();
+});
+timer = setInterval("lunbo()",2000);
+
+$(document).ready(function(e) {
+    $(".search_more").click(function(e){
+	$(".copp").show();
+	});
+	$('html').on('click',function(e){
+		var con=$(".search_more,.copp");
+		if(!con.is(e.target)&&con.has(e.target).length === 0){
+			if($('.copp').is(':visible')){
+				$('.copp').hide();
+				}
+			}
+		})
+});
+$(document).ready(function(e){
+  $('.top').click(function(){
+    $('html,body').animate({scrollTop:$('.page').offset().top}, 800);
+  });
+  $('.bottom').click(function(){
+    $('html,body').animate({scrollTop:$('.Erweima').offset().top}, 800);
+  });
+});
+$(document).scroll(function() {
+       var scroH = $(document).scrollTop(); //滚动高度
+       var viewH = $(window).height(); //可见高度
+       var contentH = $(document).height(); //内容高度
+	if(scroH >100){ //距离顶部大于100px时
+		$(".content_1").show();
+     }
+    if (contentH - (scroH + viewH) <= 1000){ //距离底部高度小于1000px
+		$(".content_2").show();
+     }  
+    if (contentH - (scroH + viewH) <= 850){
+		$(".content-center_1").show();
+     }
+	if (contentH - (scroH + viewH) <= 850){
+		$(".content-center_2").show();
+     } 
+	if (contentH - (scroH + viewH) <= 500){
+		$(".content-bottom_main-one").show();
+     } 
+	if (contentH - (scroH + viewH) <= 500){
+		$(".content-bottom_main-two").show();
+     }
+	if (contentH - (scroH + viewH) <= 200){
+		$(".content-footer").show();
+     }                
+});
+</script>
+</head>
+
+<body>
+<section class="page">
+	<header class="page-header">
+    	<div class="header-one">
+        	<div class="left-header">
+            	<a href="#">12316主站 丨</a> <a href="#">农业部信息中心</a>
+            </div>
+             <div class="right-header">
+             	<a href="#">登录</a>
+                丨<a href="#">注册</a>
+             </div>
+        </div>
+    </header>
+    <section class="search">
+    	<div class="search-main">
+        	<div class="search-main-left">
+            	<span>农业为本，诚信是金</span>
+            </div>
+            <div class="search-main-center">
+            	<div class="search_box">
+                	<input type="text" name="" id="" value="" placeholder=" 请输入产品验证码"/><button>搜索</button> 
+                </div>
+                <h2>热门搜索：<em>洛川苹果 吉林省蔬菜花卉研究所</em></h2>
+            </div> 
+            <div class="search-main-right">
+            	<div class="search_more"></div>
+            	<div class="search-main-right_1">
+                	<div class="one">
+                		<a href="#"></a>
+                        <a href="#"><font>认证企业查询</font></a>
+                    </div>
+                </div>
+                <div class="search-main-right_2">
+                	<div class="two">
+                		<a href="#"></a>
+                        <a href="#"><font>申请认证</font></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nav_bg">
+    	<nav class="cop animated bounceIn bounce delay-0.5s">
+        	<ul>
+            	<li><a href="#"><span>首页</span></a></li>
+                <li><a href="#"><span>红手印评级</span></a></li>
+                <li><a href="#"><span>推荐产品</span></a></li>
+                <li><a href="#"><span>合作伙伴</span></a></li>
+                <li><a href="#"><span>案例展示</span></a></li>
+                <li><a href="#"><span>政策法规</span></a></li>
+                <li><a href="#"><span>关于我们</span></a></li>
+            </ul>
+        </nav>
+        <nav class="copp animated bounceIn bounce delay-0.5s">
+        	<ul>
+            	<li><a href="#"><span>首页</span></a></li>
+                <li><a href="#"><span>红手印评级</span></a></li>
+                <li><a href="#"><span>推荐产品</span></a></li>
+                <li><a href="#"><span>合作伙伴</span></a></li>
+                <li><a href="#"><span>案例展示</span></a></li>
+                <li><a href="#"><span>政策法规</span></a></li>
+                <li><a href="#"><span>关于我们</span></a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="banner">
+    	<ul>
+        	<li><img src="images/banner_bg.png"/></li>
+            <li><img src="images/banner_bg1.png"/></li>
+            <li><img src="images/banner_bg2.png"/></li>
+        </ul>
+    </div>
+    <section class="content-top">
+    	<div class="content_main">
+        	<div class="content_1 animated bounceIn">
+            	<a class="left-content"><span>中心概况<br><em>The conter of</em></span></a>
+                <div class="center-content">
+                	<h3>中心概况</h3>
+                    <span>农业部推动有机农业运动发展和从事有机食品认证管理的专门机构，也是中国国家认证认可监督管理委员，也是中国国家认证认可监督管理委员...</span>
+                    <a href="#">去看看</a>
+                </div>
+                <div class="right-content">
+                	<h3>红手印认证</h3>
+                    <span>农业部推动有机农业运动发展和从事有机食品认证管理的专门机构，也是中国国家认证认可监督管理委员，也是中国国家认证认可监督管理委员...</span>
+                    <a href="#">去看看</a>
+                </div>
+            </div>
+            <div class="content_2">
+            	<ul>
+                	<li class="animated rotateInDownLeft"><a href="#">认证标准</a></li>
+                    <li class="animated rotateInDownRight"><a href="#">认证流程</a></li>
+                    <li class="animated bounceInLeft"><a href="#">认证资格</a></li>
+                    <li class="animated bounceInRight"><a href="#">投诉监管</a></li>
+                    <li class="animated rotateInUpLeft"><a href="#">认证范围</a></li>
+                    <li class="animated rotateInUpRight"><a href="#">认证样本</a></li>
+                </ul>
+            </div>
+        </div> 
+    </section>
+    <section class="content-center">
+        <div class="content-center_1 animated bounceInLeft bounce delay-1.5s">
+            <dd></dd>
+            <dt>
+            	<h1>对商家提供的服务 </h1>
+                <ul>
+                	<li>农产品认证、防伪，保护产品品牌</li>
+                    <li>提升销量和品牌信任度</li>
+                    <li>深度资源整合，生产、物流、营销企业通力合作，优势互补</li>
+                    <li>防止假冒产品对企业品牌及产品品牌的损害</li>
+                </ul>
+                <h5>申请认证相关资料下载</h5>
+                <h4><a href="#">申请人资质</a><a href="#">申请材料准备</a><a href="#">受理申请的部门</a></h4>
+            </dt>
+        </div>
+        
+        <div class="content-center_2 animated bounceInRight bounce delay-1.5s">
+            <dd></dd>
+            <dt>
+            	<h1>为消费者提供的服务</h1>
+                <ul>
+                	<li>国外农产品质量安全管理制度概况</li>
+                    <li>什么是农产品质量安全标准?</li>
+                    <li>食用农产品有哪些安全性因子?</li>
+                    <li>红手印认证农产品应具备哪些条件？</li>
+                </ul>
+                <h6>
+                	<a href="#">认证农产品<br>查询</a>
+                    <a href="#">认证企业<br>查询</a>
+                    <a href="#">农产品<br>溯源</a>
+                    <a href="#">诚信认证<br>查询</a>
+                </h6>
+            </dt>
+        </div>
+    </section>
+    
+    
+    <section class="content-bottom">
+    	<div class="content-bottom_main">
+        	<div class="content-bottom_main-one">
+            	<h1>诚信认证企业推荐<a href="#">more ></a></h1>
+               	<ul>
+                	<li class="animated flip"><a href="#"><span>吉林省蔬菜花卉</span></a></li>
+                    <li class="animated flip"><a href="#"><span>吉林省蔬菜花卉</span></a></li>
+                    <li class="animated flip"><a href="#"><span>吉林省蔬菜花卉</span></a></li>
+                    <li class="animated flip"><a href="#"><span>吉林省蔬菜花卉</span></a></li>
+                    <li class="animated flip"><a href="#"><span>吉林省蔬菜花卉</span></a></li>
+                    <li class="animated flip"><a href="#"><span>吉林省蔬菜花卉</span></a></li>
+                </ul>
+            </div>
+            <div class="content-bottom_main-two">
+            	<h1>优质认证产品推荐<a href="#">more ></a></h1>
+               	<ul>
+                	<li class="animated flip"><a href="#"><span>洛川苹果</span></a></li>
+                    <li class="animated flip"><a href="#"><span>草莓</span></a></li>
+                    <li class="animated flip"><a href="#"><span>樱桃</span></a></li>
+                    <li class="animated flip"><a href="#"><span>桃子</span></a></li>
+                    <li class="animated flip"><a href="#"><span>梨</span></a></li>
+                    <li class="animated flip"><a href="#"><span>瓜</span></a></li>
+                </ul>
+            </div>
+            <div class="content-footer">
+            	<h1>合作伙伴<a href="#">more ></a></h1>
+                <ul>
+                	<li class="animated flipInX"><a href="#"><img src="images/logo_1.png"/></a></li>
+                    <li class="animated flipInX"><a href="#"><img src="images/logo_2.png"/></a></li>
+                    <li class="animated flipInX"><a href="#"><img src="images/logo_3.png"/></a></li>
+                    <li class="animated flipInX"><a href="#"><img src="images/logo_4.png"/></a></li>
+                    <li class="animated flipInX"><a href="#"><img src="images/logo_1.png"/></a></li>
+                    <li class="animated flipInX"><a href="#"><img src="images/logo_2.png"/></a></li>
+                    <li class="animated flipInX"><a href="#"><img src="images/logo_3.png"/></a></li>
+                    <li class="animated flipInX"><a href="#"><img src="images/logo_4.png"/></a></li>
+                </ul>
+            </div> 
+        </div>
+    </section>
+    <section class="fotter-main">
+    	<footer class="fotter-main-al">
+        	<div class="bottom-nav">
+            	<a href="#">关于我们</a>
+                <a href="#">会员服务</a>
+                <a href="#">联系方式</a>
+                <a href="#">网站导航</a>
+                <a href="#">认证指南</a>
+                <a href="#">法律法规</a>
+                <a href="#">公告公示</a>
+                <a href="#">资料下载</a>
+                <a href="#">联系我们</a>
+            </div>
+            <p class="bottom-text">地址：北京市海淀区学院南路10号 100081 电话:010-88888888 传真: 010-88898889<br>版权所有 © 2002-2010 农业部红手印认证中心  email:hsy@arg.gov.cn <br>ICP证：京11004558号</p>
+       		<div class="Erweima">
+                <ul>
+                	<li><a href="#"><img src="images/erweima.png"><br><span>Android下载</span></a></li>
+                    <li><a href="#"><img src="images/erweima.png"><br><span>IOS下载</span></a></li>
+                    <li><a href="#"><img src="images/erweima.png"><br><span>Windows下载</span></a></li>
+                </ul>    
+            </div>
+            <div class="top">Up</div>
+        </footer>
+    </section>
+</section>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+.logo {
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	background: url(../images/logo.png) no-repeat center center;
+	z-index: 10;
+}
+.item img {
+	width: 100%;
+}
+.nav li a {
+	font-size: 14px;
+	color: #333;
+}
+.nav {
+	margin-top: 20px;
+}
+.dropdown_wid {
+	width: 550px;
+	position: relative;
+	left: 0;
+}
+.dropdown_wid ul li {
+	line-height: 24px;
+	font-size: 14px;
+}
+.dropdown_wid ul li h3 {
+	font-size: 18px!important;
+}
+.dropdown_wid img {
+	width: 200%;
+}
+.dropdown_widd {
+	width: 550px;
+	position: relative;
+	left: 0;
+	right: -385px;
+}
+.dropdown_widd ul li {
+	line-height: 24px;
+	font-size: 14px;
+}
+.dropdown_widd ul li h3 {
+	font-size: 18px!important;
+}
+.dropdown_widd img {
+	width: 200%;
+}
+.dropdown_widt {
+	width: 600px;
+	position: relative;
+	left: 0;
+	right: -250px;
+}
+.dropdown_widt img {
+	width: 100%;
+	height: 200px;
+}
+.dropdown_widq {
+	width: 700px;
+	position: relative;
+	left: 0;
+	right: -80px;
+}
+.dropdown_widq img {
+	width: 100%;
+	height: 200px;
+}
+.cuop_tup{
+	border-bottom: #ccc solid 3px;
+	margin-bottom: 20px;
+}
+.wailian ul li {
+	font-size: 16px;
+	line-height: 36px;
+}
+.mukuai img {
+	width: 100%;
+	margin-top: 12px;
+}
+.font_wei {
+	font-size: 24px;
+	font-weight: bold;
+}
+.sping img {
+	width: 100%;
+}
+.sping p {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -30px;
+}
+.dibu {
+	height: 60px;
+	width: 100%;
+	background: #fd3301;
+	margin-top: 50px;
+}
+.dibu p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+}

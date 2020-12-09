@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RoyalMudFang</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<link media="screen and ( min-width:1024px)" href="css/index_pc.css" rel="stylesheet" type="text/css"/>
+<link media="screen and ( min-width:415px) and (max-width:1024px)" href="css/index_ipad.css" rel="stylesheet" type="text/css"/>
+<link media="screen and ( max-width:414px)" href="css/index_mobile.css" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$( document).ready(function(e) {
+    $('.main_cut:gt(0)').hide();
+    var tabuop = $('.tab ul li');
+    tabuop.hover(function() {
+        $(this).addClass('te_btline').siblings().removeClass('te_btline');
+        var tabuop_index = tabuop.index(this);
+        $('.main_cut').eq(tabuop.index(this)).show().siblings().hide();
+    });
+});	
+</script>
+</head>
+
+<body>
+<header class="hei_h30">
+	<div class="row">
+		<div class="col-lg-6 col-sm-6 col-xs-8 left_her_text">
+		<ul>
+			<li><a href="index.html">天猫首页</a></li>
+			<li>hi，小宝贝</li>
+			<li><a href="#">请登录</a></li>
+		</ul>
+	</div>
+	<div class="col-lg-6 col-sm-6 col-xs-4 right_her_text">
+		<ul>
+			<li class="hid"><a href="#">收藏夹<span class="caret"></span></a></li>
+			<li><a href="#">购物车</a></li>
+			<li class="hid"><a href="#">我的淘宝<span class="caret"></span></a></li>
+		</ul>
+	</div>
+	</div>
+</header>
+<section class="sou_h120_tex row">
+	<div class="logo col-lg-6 col-sm-6 col-xs-6"></div>
+	<div class="col-lg-6 col-sm-6 pull-right col-xs-5">
+		<div class="col-lg-7 col-sm-12 col-xs-12 pull-right sou_tp">
+      <div class="input-group">
+        <input type="text" class="form-control">
+        <p class="input-group-btn">
+          <button class="btn btn-default btn_color" type="button">搜天猫 </button>
+        </p>
+        <p class="input-group-btn">
+          <button class="btn btn-default btn_color1" type="button">搜本店 </button>
+        </p>
+      </div>
+    </div>
+	</div>
+</section>
+<nav class="nav_h40_topa">
+	<ul class="nav nav-pills">
+	   <li ><a href="index.html">首页</a></li>
+	   <li><a href="list.html">所有宝贝</a></li>
+	   <li><a href="show.html">镇店之宝</a></li>
+	   <li><a href="#">会员尊享</a></li>
+	</ul>
+</nav>
+<div id="myCarousel" class="carousel slide">
+   <!-- 轮播（Carousel）指标 -->
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+   </ol>   
+   <!-- 轮播（Carousel）项目 -->
+   <div class="carousel-inner">
+      <div class="item active">
+         <img src="images/banner4.jpg" alt="First slide">
+      </div>
+      <div class="item">
+         <img src="images/banner2.jpg" alt="Second slide">
+      </div>
+      <div class="item">
+         <img src="images/banner3.jpg" alt="Third slide">
+      </div>
+       <div class="item">
+         <img src="images/banner1.jpg" alt="Four slide">
+      </div>
+   </div>
+   <!-- 轮播（Carousel）导航 -->
+   <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev">&lsaquo;</a>
+   <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">&rsaquo;</a>
+</div>
+
+<div class="main_top_h30 row">
+	<div class="col-lg-4 col-sm-4">
+		<div class="pad_10">
+			<img src="images/1_03.png"/>
+			<ul class="text-center">
+				<li>小红瓶系列</li>
+				<li><a href="show.html">立即查看></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-lg-4 col-sm-4">
+		<div class="pad_10">
+			<img src="images/1_05.png"/>
+			<ul class="text-center">
+				<li>新品上市</li>
+				<li><a href="show.html">立即查看></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-lg-4 col-sm-4">
+		<div class="pad_10">
+			<img src="images/1_07.png"/>
+			<ul class="text-center">
+				<li>会员尊享</li>
+				<li><a href="show.html">立即查看></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<section class="container">
+	<div class="bt_top_h20 text-center">
+		<h1>镇店之宝<br><span>RECOMMEND PRODUCTS</span></h1>
+	</div>
+	<div class="row">
+		<div class="col-lg-6 col-sm-6 text-center text_ctuo">
+			<h1>定义新美白</h1>
+			<p>小红瓶—美白嫩肤面膜/20片</p>
+			<b>￥129.9 <a href="show.html">立即购买></a></b>
+		</div>
+		<div class="col-lg-6 col-sm-6 text-center text_ctuo">
+			<a href="show.html"><img src="images/main_1.png"/></a>
+		</div>
+		<div class="col-lg-6 col-sm-6 text-center text_ctuo">
+			<a href="show.html"><img src="images/main_2.png"/></a>
+		</div>
+		<div class="col-lg-6 col-sm-6 text-center text_ctuo">
+			<h1>全新第四代 传承实力白</h1>
+			<p>小红瓶—美白嫩肤套装</p>
+			<b>￥229.9 <a href="show.html">立即购买></a></b>
+		</div>
+	</div>
+</section>
+<section class="gradual_3 text-center">
+	<h1>镇店之宝<br><span>RECOMMEND PRODUCTS</span></h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 text_ctuop">
+				<h1>重构肌肤屏障 告别大毛孔</h1>
+				<p>晶冻黑面膜/21片</p>
+				<p class="po_top">￥119.9 <a href="show.html">立即购买></a></p>
+				<img src="images/1.png"/>
+			</div>
+			<div class="col-lg-6 col-sm-6 text_ctuopt">
+				<img src="images/heimei.png"/>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="tab">
+		<ul>
+			<li class="te_btline">人气面膜</li>
+			<li>护肤套装</li>
+			<li>睡眠面膜</li>
+			<li>泥浆面膜</li>
+			<li>眼部护理</li>
+		</ul>
+	<div class="main_qp00">
+		<div class="main_cut">
+			<a href="show.html"><img src="images/banner_01.png"/></a>
+		</div>
+		<div class="main_cut">
+			<a href="show.html"><img src="images/banner_02.png"/></a>
+		</div>
+		<div class="main_cut">
+			<a href="show.html"><img src="images/banner_03.png"/></a>
+		</div>
+		<div class="main_cut">
+			<a href="show.html"><img src="images/banner_04.png"/></a>
+		</div>
+		<div class="main_cut">
+			<a href="show.html"><img src="images/banner_05.png"/></a>
+		</div>
+	</div>
+</div>
+<div class="text_bushue">
+	<div class=" col-lg-3 col-sm-3 col-xs-6 text_jsia">
+		<span>优</span>
+		<ul>
+			<li>品质保障</li>
+			<li>品质护航 购物无忧</li>
+		</ul>
+	</div>
+	<div class=" col-lg-3 col-sm-3 col-xs-6  text_jsia">
+		<span>七</span>
+		<ul>
+			<li>七天无理由退换货</li>
+			<li>提供售后无忧保障</li>
+		</ul>
+	</div>
+	<div class=" col-lg-3 col-sm-3 col-xs-6  text_jsia">
+		<span>特</span>
+		<ul>
+			<li>特色服务</li>
+			<li>呈现不一样的服务</li>
+		</ul>
+	</div>
+	<div class=" col-lg-3 col-sm-3 col-xs-6  text_jsia">
+		<span>帮</span>
+		<ul>
+			<li>帮助中心</li>
+			<li>您的购物指南</li>
+		</ul>
+	</div>
+</div>
+<footer class="h70_chus text-center">
+	<p>地址：广西工商职业技术学院<br>计算机应用技术1806班 黄丽婷</p>
+</footer>
+</body>
+</html>

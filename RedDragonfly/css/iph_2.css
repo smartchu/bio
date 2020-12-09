@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+.logo {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 20px;
+	background: url(../images/logo.png) no-repeat center center;
+	z-index: 10;
+}
+.navbar-header {
+	background: url(../images/top_bann.jpg) no-repeat;
+	background-size: cover;
+}
+.navbar-header .navbar-toggle {
+	background: url(../images/../images/gengduo.png) no-repeat;
+	background-size: contain;
+}
+.nav {
+	margin-top: 20px;
+}
+.dropdown_wid {
+	width: 382px;
+	position: relative;
+	left: 0;
+}
+.dropdown_wid ul li {
+	line-height: 24px;
+	font-size: 14px;
+}
+.dropdown_wid ul li h3 {
+	font-size: 18px!important;
+}
+.dropdown_wid img {
+	display: none;
+	width: 200%;
+}
+.dropdown_widd {
+	width: 382px;
+	position: relative;
+	left: 0;
+	right: 0;
+}
+.dropdown_widd ul li {
+	line-height: 24px;
+	font-size: 14px;
+}
+.dropdown_widd ul li h3 {
+	font-size: 18px!important;
+}
+.dropdown_widd img {
+	display: none;
+	width: 200%;
+}
+.dropdown_widt {
+	width: 382px;
+	position: relative;
+	left: 0;
+	bottom: 45px;
+}
+.dropdown_widt img {
+	width: 100%;
+	height: 140px;
+}
+.dropdown_widq {
+	width: 382px;
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+}
+.dropdown_widq h4 {
+	font-size: 14px!important;
+}
+.dropdown_widq img {
+	width: 100%;
+	height: 100px;
+}
+.item img {
+	width: 100%;
+}
+.nav {
+	margin-top: 20px;
+}
+.nav li a {
+	font-size: 14px;
+	color: #333;
+}
+/*............................*/
+.breadcrumb li a {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+.banner_xl img {
+	width: 100%;
+}
+.crumbs {
+	margin-top: 20px;
+}
+.banner_shop img {
+	width: 100%;
+}
+/*//////////////////////*/
+.tp_btline {
+	border-bottom: #ccc solid 1px!important;
+	border-top: #ccc solid 1px;
+}
+.tp_btline li {
+	font-size: 12px;
+	font-weight: bold;
+}
+.fade img {
+	width: 100%;
+}
+.fade img:hover {
+	border: #ccc solid 2px;
+	box-shadow: #333 1px 1px 2px;
+}
+.fade p {
+	font-size: 14px;
+	line-height: 32px;
+}
+.ctup img {
+	width: 100%;
+}
+.ctup img:hover {
+	border: #ccc solid 2px;
+	box-shadow: #333 1px 1px 2px;
+}
+.ctup h1 {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 56px;
+	letter-spacing: 10px;
+}
+.ctup p {
+	line-height: 48px;
+	font-size: 14px;
+}
+.ctup {
+	margin-top: 20px;
+	border-bottom: #ccc solid 3px;
+}
+.wailian ul {
+	padding-left: 0px!important;
+}
+.cuop_tup{
+	border-bottom: #ccc solid 3px;
+	margin-bottom: 20px;
+}
+.wailian ul li {
+	font-size: 12px;
+	line-height: 36px;
+}
+.totop {
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 400px;
+	height: 40px;
+	width: 40px;
+	background: url(../images/top.png) no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.dibu {
+	height: 60px;
+	width: 100%;
+	background: #fd3301;
+	margin-top: 20px;
+}
+.dibu p {
+	font-size: 12px;
+	color: #fff;
+	line-height: 24px;
+}

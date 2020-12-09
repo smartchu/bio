@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>化工行业</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/index.css" rel="stylesheet"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+   $(function(){
+      // 初始化轮播
+      $(".start-slide").click(function(){
+         $("#myCarousel").carousel('cycle');
+      });
+      // 停止轮播
+      $(".pause-slide").click(function(){
+         $("#myCarousel").carousel('pause');
+      });
+      // 循环轮播到上一个项目
+      $(".prev-slide").click(function(){
+         $("#myCarousel").carousel('prev');
+      });
+      // 循环轮播到下一个项目
+      $(".next-slide").click(function(){
+         $("#myCarousel").carousel('next');
+      });
+      // 循环轮播到某个特定的帧 
+      $(".slide-one").click(function(){
+         $("#myCarousel").carousel(0);
+      });
+      $(".slide-two").click(function(){
+         $("#myCarousel").carousel(1);
+      });
+      $(".slide-three").click(function(){
+         $("#myCarousel").carousel(2);
+      });
+   });
+</script>
+</head>
+
+<body>
+<div id="myCarousel" class="carousel slide"> 
+  <!-- 轮播（Carousel）指标 -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <!-- 轮播（Carousel）项目 -->
+  <div class="carousel-inner">
+    <div class="item active"> <img src="images/banner.png" alt="First slide"> </div>
+    <div class="item"> <img src="images/banner.png" alt="Second slide"> </div>
+    <div class="item"> <img src="images/banner.png" alt="Third slide"> </div>
+  </div>
+  <!-- 轮播（Carousel）导航 --> 
+  <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev">&lsaquo;</a> <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">&rsaquo;</a> </div>
+<div class="dingwei container">
+  <nav class="navbar " role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+                 data-target="#example-navbar-collapse"> <span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">功能菜单</a></li>
+        <li><a href="#">功能菜单</a></li>
+        <li><a href="#">功能菜单</a></li>
+        <li><a href="#">功能菜单</a></li>
+        <li><a href="#">功能菜单</a></li>
+        <li><a href="#">功能菜单</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 ">
+      <div class="pull-left bg">案例</div>
+      <p class="fw">经典案例</p>
+      <h5>Classic case</h5>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 inden"> <a href="#" class="pull-right bk">更多详情</a> </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7 col-md-7 col-sm-7 pull-left">
+      <div class=" bk_5"> <img src="images/hangxi.png" style="width:100%"/> </div>
+      <span class="fw_18">内容内容内容内容内容内容内容内容</span>
+      <p>内容内容内容内容内容内容内容内容内容内容<br>
+        内容内内内容内容内容内容内容内容内容内容内容内容内容内内容内容内容内容容内容内容容内容内容内容容内容内容</p>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5 row pull-right">
+      <div class="container col-xs-12">
+        <div class="bk_5"> <img src="images/chanpin.png" style="width:100%"/> </div>
+        <span class="fw_18">内容内容内容内容内容内</span>
+        <p>内容内容内容内容</p>
+      </div>
+      <div class=" ctr container col-xs-12">
+        <div class="bk_5"> <img src="images/chanpin.png" style="width:100%"/> </div>
+        <span class="fw_18">内容内容内容内容内容内</span>
+        <p>内容内容内容内容</p>
+      </div>
+      <a href="#"></a><a href="#"></a> </div>
+  </div>
+</div>
+<div class="beijingtu">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+        <div class=" pull-left bg">新闻</div>
+        <p class="fw">行业新闻</p>
+        <h5>Classic case</h5>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 mr30"> <a href="#" class="pull-right bk_fff">更多详情</a> </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <div class="baibg"> <img src="images/hangxi.png" style="width:100%"/> </div>
+        <h6 class=" baibg_hei30 bu_18">标题标题标题标题</h6>
+        <p class="baibg_hei30">内容内容内容内容内容内容</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <div class="baibg"> <img src="images/hangxi.png" style="width:100%"/> </div>
+        <h6 class="baibg_hei30 bu_18">标题标题标题标题</h6>
+        <p class="baibg_hei30">内容内容内容内容内容内容</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <div class="baibg"> <img src="images/hangxi.png" style="width:100%"/> </div>
+        <h6 class="baibg_hei30 bu_18">标题标题标题标题</h6>
+        <p class="baibg_hei30">内容内容内容内容内容内容</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <div class="baibg"> <img src="images/hangxi.png" style="width:100%"/> </div>
+        <h6 class="baibg_hei30 bu_18">标题标题标题标题</h6>
+        <p class="baibg_hei30">内容内容内容内容内容内容</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+      <div class="pull-left bg">标题</div>
+      <p class="fw">经典表情</p>
+      <h5>Classic case</h5>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4"> <a href="#" class="pull-right bk">更多详情</a> </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-5 pull-left ctr">
+      <div class=" bk_5"> <img src="images/chanpin.png" style="width:100%"/> </div>
+      <h3 class="bu">标题标题标题标题标题标题</h3>
+      <span class="fone_14">内容内容内容内内容内容容
+      内容内容内容内容内容内容内容内内容内容内容内容容
+      内容内容内容内容内容内容内容内容内内容内容内容内容容内容
+      内容内容内容内容内容内容内内容内容内容内容容内容</span><br>
+      <br>
+      <a href="#" class="bk bu_g">查看详情</a> </div>
+    <div class="col-lg-7 col-md-7 col-sm-7 row pull-right rguh">
+      <div class=" tp_er container col-xs-12">
+        <dt class="bu_80 pull-left">01</dt>
+        <dd>
+          <h4 class="fw_18 bu">标题标题标题标题标题标题</h4>
+          内容内容内容内容内容
+          内容内容内容内容内容内内容内容内容内容内容内容内 </dd>
+      </div>
+      <div class=" tp_er container col-xs-12">
+        <dt class="bu_80 pull-left">02</dt>
+        <dd>
+          <h4 class="fw_18 bu">标题标题标题标题标题标题</h4>
+          内容内容内容内容内容
+          内容内容内容内容内
+          内容内容内容内容内容内容内容内容内容内容内容内容
+          内容内容内容内容内容内容容内容</dd>
+      </div>
+      <div class="tp_er container col-xs-12">
+        <dt class="bu_80 pull-left">03</dt>
+        <dd>
+          <h4 class="fw_18 bu">标题标题标题标题标题标题</h4>
+          内容内容内容内容内容
+          内容内容内容内容内容内内容内容内容内
+          内容内容内容
+          内容内容内容内容内容内容容内容</dd>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg_fdds">
+  <div class="container">
+    <ul class="hotline">
+      <li><a href="#">友情链接：</a></li>
+      <li><a href="#">内容内容</a></li>
+      <li><a href="#">内容内容</a></li>
+      <li><a href="#">内容内容</a></li>
+      <li><a href="#">内容内容</a></li>
+      <li><a href="#">内容内容</a></li>
+      <li><a href="#">内容内容</a></li>
+      <li><a href="#">内容内容</a></li>
+    </ul>
+  </div>
+</div>
+<div class="bg_fddd">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 bianxian tp20">
+        <p>公司：公司公司公司公司公司公司公司公司</p>
+        <p>官方网站：************</p>
+        <p>联系电话：*********</p>
+        <p>********************</p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 tp20">
+        <p>公司：公司公司公司公司公司公司公司公司</p>
+        <p>官方网站：***********</p>
+        <p>联系电话：******************</p>
+        <p>*************************************</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

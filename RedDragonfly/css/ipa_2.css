@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+.logo {
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	background: url(../images/logo.png) no-repeat center center #fff;
+	box-shadow: #ccc 1px 1px 10px;
+	z-index: 10;
+}
+.item img {
+	width: 100%;
+}
+.nav {
+	margin-top: 20px;
+}
+.nav li a {
+	font-size: 14px;
+	color: #333;
+}
+.dropdown_wid {
+	width: 750px;
+	position: relative;
+	left: 0;
+}
+.dropdown_wid ul li {
+	line-height: 36px;
+}
+.dropdown_widd {
+	width: 750px;
+	position: relative;
+	left: 0;
+	right: -530px;
+}
+.dropdown_widd ul li {
+	line-height: 36px;
+}
+.dropdown_widt {
+	width: 1000px;
+	position: relative;
+	left: 0;
+	right: -350px;
+}
+.dropdown_widt img {
+	width: 100%;
+	height: 300px;
+}
+.dropdown_widq {
+	width: 1000px;
+	position: relative;
+	left: 0;
+	right: -70px;
+}
+.dropdown_widq img {
+	width: 100%;
+	height: 300px;
+}
+/*............................*/
+.breadcrumb li a {
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+.banner_xl img {
+	width: 100%;
+}
+.crumbs {
+	margin-top: 20px;
+}
+.banner_shop img {
+	width: 100%;
+}
+/*//////////////////////*/
+.tp_btline {
+	border-bottom: #ccc solid 1px!important;
+	border-top: #ccc solid 1px;
+}
+.tp_btline li {
+	margin-right: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+.fade img {
+	width: 100%;
+}
+.fade img:hover {
+	border: #ccc solid 2px;
+	box-shadow: #333 1px 1px 2px;
+}
+.fade p {
+	font-size: 16px;
+	line-height: 32px;
+}
+.ctup img {
+	width: 100%;
+}
+.ctup img:hover {
+	border: #ccc solid 2px;
+	box-shadow: #333 1px 1px 2px;
+}
+.ctup h1 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 78px;
+	letter-spacing: 10px;
+}
+.ctup p {
+	line-height: 48px;
+	font-size: 18px;
+}
+.ctup {
+	margin-top: 20px;
+	border-bottom: #ccc solid 3px;
+}
+.cuop_tup{
+	border-bottom: #ccc solid 3px;
+	margin-bottom: 20px;
+}
+.wailian ul li {
+	font-size: 16px;
+	line-height: 36px;
+}
+.totop {
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 700px;
+	height: 40px;
+	width: 40px;
+	background: url(../images/top.png) no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.dibu {
+	height: 60px;
+	width: 100%;
+	background: #fd3301;
+	margin-top: 20px;
+}
+.dibu p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+}

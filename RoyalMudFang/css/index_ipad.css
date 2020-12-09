@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+.hei_h30{
+	height: 30px;
+	width: 100%;
+	background: #e5e5e5;
+}
+.left_her_text ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.left_her_text ul li:first-child{
+	padding-left: 20px;
+	background: url(../images/ioc.png) no-repeat left 5px;
+}
+.left_her_text ul li a{
+	color:#333;
+}
+
+.right_her_text ul li{
+	list-style-type: none;
+	float: right;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.right_her_text ul li:nth-of-type(2){
+	padding-left: 20px;
+	background: url(../images/ioc.png) no-repeat left -104px;
+}
+.right_her_text ul li a{
+	color:#333;
+}
+.sou_h120_tex{
+	height: 120px;
+	width: 100%;
+}
+.sou_h120_tex .logo{
+	height: 119px;
+	width: 312px;
+	margin-left: 5%;
+	background: url(../images/logo.png) no-repeat;
+	background-size: cover;
+}
+.sou_tp {
+	margin-top: 45px;
+}
+.btn {
+	border-radius: 0!important;
+	color: #fff!important;
+	font-weight: bold!important;
+}
+.btn_color {
+	border-color: #ff0036!important;
+	background: #ff0036!important;
+	margin-right: 5px;
+}
+.btn_color1 {
+	border-color: #333!important;
+	background: #333!important;
+}
+.form-control {
+	border-radius: 0!important;
+	border: #ff0036 solid 2px!important;
+}
+.nav_h40_topa{
+	height: 40px;
+	background: #cc091b;
+}
+.nav_h40_topa ul{
+	margin-left: 8%;
+}
+.nav_h40_topa ul li{
+	line-height: 40px;
+}
+.nav_h40_topa ul li a{
+	color: #fff;
+	font-size: 18px;
+	border-right: #fff solid 1px;
+}
+.nav>li>a {
+    padding:0px 25px!important;
+}
+
+
+.item img{
+	width: 100%;
+}
+
+
+
+.main_top_h30{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 30px;
+}
+.pad_10{
+	padding: 5px;
+	border: #e5e5e5 solid 1px;
+	border-radius: 10px;
+}
+.pad_10 ul {
+	float: right;
+	margin-top: 12%;
+	padding: 0 5% 0 0!important;
+}
+.pad_10 ul li{
+	list-style-type: none;
+	line-height: 24px;
+	font-size: 16px;
+}
+.pad_10 ul li a{
+	font-size: 14px;
+	color: #cf192a;
+}
+.pad_10 img{
+	width: 50%;
+}
+.bt_top_h20{
+	margin-top: 40px;
+}
+.bt_top_h20 h1{
+	letter-spacing: 10px;
+	color: #cf192a;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 32px;
+}
+.bt_top_h20 h1 span{
+	font-size: 12px;
+	letter-spacing: 0px;
+	color: #333;
+}
+.text_ctuo h1{
+	margin-top: 30px;
+	font-size: 30px;
+}
+.text_ctuo p{
+	font-size: 20px;
+}
+.text_ctuo b{
+	font-size: 36px;
+	color: #cf192a;
+}
+.text_ctuo b a{
+	font-size:14px;
+	color: #cf192a;
+}
+.text_ctuo img{
+	width: 80%;
+}
+.gradual_3{
+	 background: -moz-linear-gradient(top, #fbf5d5 0%, #ffffff 50%,#d5effc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbf5d5),color-stop(50%,#ffffff), color-stop(100%,#d5effc));
+    background: -webkit-linear-gradient(top, #fbf5d5 0%,#ffffff 50%,#d5effc 100%);
+    background: -o-linear-gradient(top, #fbf5d5 0%, #ffffff 50%,#d5effc 100%);
+    background: -ms-linear-gradient(top, #fbf5d5 0%, #ffffff 50%,#d5effc 100%);
+    background: linear-gradient(to bottom, #fbf5d5 0%, #ffffff 50%,#d5effc 100%);
+}
+.gradual_3 h1{
+	padding-top: 20px;
+	letter-spacing: 10px;
+	color: #cf192a;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 32px;
+}
+.gradual_3 h1 span{
+	font-size: 12px;
+	letter-spacing: 0px;
+	color: #333;
+}
+.text_ctuop img{
+	width: 65%;
+}
+.text_ctuop h1{
+	letter-spacing: 0px;
+	color: #333;
+	font-size: 30px;
+	font-weight: 500;
+	padding: 0!important;
+}
+.text_ctuop p{
+	font-size: 24px;
+}
+.po_top{
+	font-size: 36px;
+	color: #cf192a;
+}
+.po_top a{
+	font-size: 14px;
+	color: #cf192a;
+}
+.text_ctuopt img{
+	width: 90%;
+}
+
+
+
+
+
+.tab{
+	margin-top: 30px;
+}
+.tab ul{
+	margin-left: 12%;
+}
+.tab ul li{
+	list-style-type: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	line-height: 48px;
+	font-weight: bold;
+}
+
+
+
+.te_btline{
+	text-decoration: underline;
+	color: #cf192a;
+}
+.main_cut img{
+	width: 100%;
+}
+
+
+.text_bushue{
+	margin-top:30px;
+	height: 50px;
+}
+.text_jsia span{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border: #cf192a solid 3px;
+	border-radius: 25px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	color: #cf192a;
+}
+.text_jsia ul {
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 0!important;
+}
+.text_jsia ul li{
+	list-style-type: none;
+	font-size: 12px;
+	
+}
+.h70_chus{
+	margin-top: 30px;
+	height: 70px;
+	width: 100%;
+	background: #ff2442;
+}
+.h70_chus p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 1% 0 0 0;
+}

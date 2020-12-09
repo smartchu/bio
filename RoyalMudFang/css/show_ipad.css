@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+.hei_h30{
+	height: 30px;
+	width: 100%;
+	background: #e5e5e5;
+}
+.left_her_text ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.left_her_text ul li:first-child{
+	padding-left: 20px;
+	background: url(../images/ioc.png) no-repeat left 5px;
+}
+.left_her_text ul li a{
+	color:#333;
+}
+
+.right_her_text ul li{
+	list-style-type: none;
+	float: right;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.right_her_text ul li:nth-of-type(2){
+	padding-left: 20px;
+	background: url(../images/ioc.png) no-repeat left -104px;
+}
+.right_her_text ul li a{
+	color:#333;
+}
+.sou_h120_tex{
+	height: 120px;
+	width: 100%;
+}
+.sou_h120_tex .logo{
+	height: 119px;
+	width: 312px;
+	margin-left: 5%;
+	background: url(../images/logo.png) no-repeat;
+	background-size: cover;
+}
+.sou_tp {
+	margin-top: 45px;
+}
+.btn {
+	border-radius: 0!important;
+	color: #fff!important;
+	font-weight: bold!important;
+}
+.btn_color {
+	border-color: #ff0036!important;
+	background: #ff0036!important;
+	margin-right: 5px;
+}
+.btn_color1 {
+	border-color: #333!important;
+	background: #333!important;
+}
+.form-control {
+	border-radius: 0!important;
+	border: #ff0036 solid 2px!important;
+}
+.nav_h40_topa{
+	height: 40px;
+	background: #cc091b;
+}
+.nav_h40_topa ul{
+	margin-left: 8%;
+}
+.nav_h40_topa ul li{
+	line-height: 40px;
+}
+.nav_h40_topa ul li a{
+	color: #fff;
+	font-size: 18px;
+	border-right: #fff solid 1px;
+}
+.nav>li>a {
+    padding:0px 25px!important;
+}
+
+
+
+
+
+
+
+
+.xia-shie{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 3%;
+}
+.xia-shie img{
+	width: 100%;
+}
+
+.his_tex h4{
+	font-size: 16px;
+}
+.his_tex p{
+	color: #cc091b;
+	font-size: 14px;
+}
+.wi_hei70{
+	width: 95%;
+	height: 55px;
+	background: #aeb8c2;
+}
+.wi_hei70 p{
+	margin: 0 0 0 2%!important;
+	line-height: 24px;
+	font-size: 14px;
+	color: #333!important;
+}
+.wi_hei70 p span{
+	margin-left: 8.5%;
+}
+.wi_hei70 h3{
+	margin: 0 0 0 2%!important;
+	line-height: 30px;
+    font-size: 16px;
+}
+.wi_hei70 h3 span{
+	margin-left: 5%;
+	color: #cc091b;
+	font-size: 24px;
+}
+.yue_fei{
+	margin-left: 2%;
+	line-height: 48px;
+	color: #333!important;
+	font-size: 16px;
+}
+.yue_fei span{
+	margin-left: 7%;
+}
+.hua_dhi{
+	height: 50px;
+	width: 95%;
+	border-bottom: #d4dad6 solid 1px;
+	border-top: #d4dad6 solid 1px;
+}
+.hua_dhi ul{
+	padding: 0!important;
+}
+.hua_dhi ul li{
+	list-style-type: none;
+	float: left;
+	width: 33%;
+	font-size: 14px;
+	border-right: #d4dad6 solid 1px;
+	height: 36px;
+	text-align: center;
+	margin-top: 2%;
+}
+.hua_dhi ul li span{
+	color: #cc091b;
+}
+.hua_dhi ul li:last-child span{
+	color: #09cc0e;
+}
+.gou_wu{
+	margin-top: 8%;
+}
+.gou_wu a{
+	padding: 10px 20px;
+	border: #cc091b solid 2px;
+	font-size: 18px;
+	margin-left: 5%;
+	color: #cc091b;
+}
+.gou_wu .tb_lef{
+	background: url(../images/ioc.png)no-repeat 5px -258px #cc091b;
+	color: #fff;
+	padding: 10px 10px 10px 30px;
+}
+.caini_like{
+	margin-top: 2%;
+}
+.caini_like h1{
+	width: 100%;
+	height: 60px;
+	background: #cc091b;
+	color: #fff;
+	font-size: 24px;
+	line-height: 60px;
+	text-indent: 1em;
+}
+.wi_100_pod{
+	margin-top: 2%;
+	position: relative;
+}
+.wi_100_pod img{
+	width: 100%;
+}
+.wi_100_pod p{
+	position: absolute;
+	bottom: -10px;
+	font-size: 14px;
+	color: #cc091b;
+}
+
+
+
+
+
+
+
+
+
+.totop{
+	display: none;
+	height: 50px;
+	width: 50px;
+	position:fixed;
+	right: 0;
+	top:80%;
+	border: #ccc solid 2px;
+	background: url(../images/totop.png) no-repeat center center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.te_btline{
+	text-decoration: underline;
+	color: #cf192a;
+}
+.main_cut img{
+	width: 100%;
+}
+
+
+.text_bushue{
+	margin-top:30px;
+	height: 50px;
+}
+.text_jsia span{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border: #cf192a solid 3px;
+	border-radius: 25px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	color: #cf192a;
+}
+.text_jsia ul {
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 0!important;
+}
+.text_jsia ul li{
+	list-style-type: none;
+	font-size: 12px;
+	
+}
+.h70_chus{
+	margin-top: 30px;
+	height: 70px;
+	width: 100%;
+	background: #ff2442;
+}
+.h70_chus p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 1% 0 0 0;
+}

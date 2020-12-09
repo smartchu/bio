@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+.dingwei {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background: url(../images/logo.png) #FFF no-repeat 10px 10px;
+}
+.navbar {
+	margin: 20px auto auto 250px;
+}
+.nav li {
+	margin-left: 30px;
+	margin-right: 10px;
+}
+.nav li a {
+	background: #FFF;
+}
+.nav li a:hover {
+	background: url(../images/ioce.png) no-repeat center 35px !important;
+}
+.icon-bar {
+	background: #CCC !important;
+}
+.bg {
+	padding: 5px 10px;
+	background: #06F;
+	color: #FFF;
+	margin-top: 40px;
+}
+.fw {
+	text-indent: 5px;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 40px;
+}
+.fw_18 {
+	font-weight: bold;
+	font-size: 18px;
+}
+.bk {
+	padding: 3px 7px;
+	border: #06F solid 1px;
+	margin-top: 30px;
+}
+.bk_fff {
+	padding: 3px 7px;
+	border: #fff solid 1px;
+	color: #FFF;
+}
+.bk_5 {
+	border: #06F solid 5px;
+}
+.beijingtu {
+	background: url(../images/beijing.png) no-repeat center center;
+}
+.mr30 {
+	margin-top: 30px;
+}
+.baibg {
+	border: #FFF solid 5px;
+}
+.baibg_hei30 {
+	line-height: 35px;
+	margin-top: -10px;
+	background: #FFF;
+	text-indent: 5px;
+}
+.bu {
+	color: #06F;
+	text-indent: 5px;
+}
+.bu_18 {
+	font-size: 18px;
+	color: #06F;
+	font-weight: bold;
+}
+.row {
+	margin-bottom: 35px;
+}
+.bu_g {
+	background: #06F;
+	color: #FFF;
+	margin-bottom: 50px !important;
+}
+.bu_80 {
+	width: 80px;
+	height: 80px;
+	background: #06F;
+	color: #FFF;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 80px;
+}
+.tp_er {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.bg_fdds {
+	background: #0088d6;
+}
+.bg_fddd {
+	background: #149cea;
+}
+.hotline {
+	list-style-type: none;
+	height: 35px;
+}
+.hotline li {
+	float: left;
+}
+.hotline li a {
+	color: #FFF;
+	line-height: 35px;
+	margin-right: 25px;
+	padding-right: 20px;
+	border-right: #FFF solid 1px;
+}
+.hotline li:first-child a {
+	border: 0;
+	margin: 0;
+}
+.bianxian {
+	border-right: #FFF solid 1px;
+}
+.tp20 {
+	margin-top: 20px;
+	text-indent: 20px;
+	color: #FFF;
+}

@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RoyalMudFang</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<link media="screen and ( min-width:1024px)" href="css/show_pc.css" rel="stylesheet" type="text/css"/>
+<link media="screen and ( min-width:415px) and (max-width:1024px)" href="css/show_ipad.css" rel="stylesheet" type="text/css"/>
+<link media="screen and ( max-width:414px)" href="css/show_mobile.css" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	$(document).scroll(function() {
+       var scroH = $(document).scrollTop();
+       var viewH = $(window).height();
+       var contentH = $(document).height(); 
+	if(scroH>800){ 
+		$(".totop").show();
+     };
+	if(scroH<450){
+		$(".totop").hide();
+		
+     };
+});	
+$(document).ready(function(e){
+  $('.totop').click(function(){
+    $('html,body').animate({scrollTop:$('.hei_h30').offset().top}, 800);
+  });
+});
+</script>
+</head>
+
+<body>
+<header class="hei_h30">
+	<div class="row">
+		<div class="col-lg-6 col-sm-6 col-xs-8 left_her_text">
+		<ul>
+			<li><a href="index.html">天猫首页</a></li>
+			<li>hi，小宝贝</li>
+			<li><a href="#">请登录</a></li>
+		</ul>
+	</div>
+	<div class="col-lg-6 col-sm-6 col-xs-4 right_her_text">
+		<ul>
+			<li class="hid"><a href="#">收藏夹<span class="caret"></span></a></li>
+			<li><a href="#">购物车</a></li>
+			<li class="hid"><a href="#">我的淘宝<span class="caret"></span></a></li>
+		</ul>
+	</div>
+	</div>
+</header>
+<section class="sou_h120_tex row">
+	<div class="logo col-lg-6 col-sm-6 col-xs-6"></div>
+	<div class="col-lg-6 col-sm-6 pull-right col-xs-5">
+		<div class="col-lg-7 col-sm-12 col-xs-12 pull-right sou_tp">
+      <div class="input-group">
+        <input type="text" class="form-control">
+        <p class="input-group-btn">
+          <button class="btn btn-default btn_color" type="button">搜天猫 </button>
+        </p>
+        <p class="input-group-btn">
+          <button class="btn btn-default btn_color1" type="button">搜本店 </button>
+        </p>
+      </div>
+    </div>
+	</div>
+</section>
+<nav class="nav_h40_topa">
+	<ul class="nav nav-pills">
+	   <li><a href="index.html">首页</a></li>
+	   <li><a href="list.html">所有宝贝</a></li>
+	   <li><a href="show.html">镇店之宝</a></li>
+	   <li><a href="#">会员尊享</a></li>
+	</ul>
+</nav>
+
+
+
+
+
+<section class="xia-shie">
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<img src="images/list (7).jpg"/>
+		</div>
+		<div class="col-lg-8 col-sm-6 his_tex">
+			<h4>御泥坊晶冻黑面膜清洁毛孔修护痘肌补水保湿控油女玻尿酸面膜正品</h4>
+			<p>疏通细腻毛孔 抑制熬夜痘 3D玻尿酸深补水</p>
+			<div class="wi_hei70">
+				<p>价格<span>￥298.00</span></p>
+				<h3>促销价<span>￥119.90</span></h3>
+			</div>
+			<p class="yue_fei">运费<span>￥0.00</span></p>
+			<div class="hua_dhi">
+				<ul>
+					<li>月销量<span>2.5万+</span></li>
+					<li>累计评价<span>617510</span></li>
+					<li>送天猫积分<span>59</span></li>
+				</ul>
+			</div>
+			<div class="gou_wu">
+				<a href="#">立即购买</a>
+				<a href="#" class="tb_lef">加入购物车</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="container caini_like">
+	<h1>猜你喜欢</h1>
+	<div class="row">
+		<div class="col-lg-4 col-sm-4 col-xs-6 wi_100_pod">
+			<a href=""><img src="images/list (10).jpg"/></a>
+			<p>￥119.00</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 col-xs-6 wi_100_pod">
+			<a href="show.html"><img src="images/list (1).png"/></a>
+			<p>￥219.00</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 col-xs-6 wi_100_pod">
+			<a href="show.html"><img src="images/list (11).jpg"/></a>
+			<p>￥89.00</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 col-xs-6 wi_100_pod">
+			<a href="show.html"><img src="images/list (9).jpg"/></a>
+			<p>￥79.00</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 col-xs-6 wi_100_pod">
+			<a href="show.html"><img src="images/list (1).jpg"/></a>
+			<p>￥129.00</p>
+		</div>
+		<div class="col-lg-4 col-sm-4 col-xs-6 wi_100_pod">
+			<a href="show.html"><img src="images/list (1).png"/></a>
+			<p>￥159.00</p>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<div class="totop">
+	
+</div>
+
+<div class="text_bushue">
+	<div class=" col-lg-3 col-sm-3 col-xs-6 text_jsia">
+		<span>优</span>
+		<ul>
+			<li>品质保障</li>
+			<li>品质护航 购物无忧</li>
+		</ul>
+	</div>
+	<div class=" col-lg-3 col-sm-3 col-xs-6  text_jsia">
+		<span>七</span>
+		<ul>
+			<li>七天无理由退换货</li>
+			<li>提供售后无忧保障</li>
+		</ul>
+	</div>
+	<div class=" col-lg-3 col-sm-3 col-xs-6  text_jsia">
+		<span>特</span>
+		<ul>
+			<li>特色服务</li>
+			<li>呈现不一样的服务</li>
+		</ul>
+	</div>
+	<div class=" col-lg-3 col-sm-3 col-xs-6  text_jsia">
+		<span>帮</span>
+		<ul>
+			<li>帮助中心</li>
+			<li>您的购物指南</li>
+		</ul>
+	</div>
+</div>
+<footer class="h70_chus text-center">
+	<p>地址：广西工商职业技术学院<br>计算机应用技术1806班 黄丽婷</p>
+</footer>
+</body>
+</html>
